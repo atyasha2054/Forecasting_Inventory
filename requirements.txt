@@ -1,5 +1,5 @@
 dash
-dash-bootstrap-components
+dash-daq
 pandas
 scikit-learn
 numpy
