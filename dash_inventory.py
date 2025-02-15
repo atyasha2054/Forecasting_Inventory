@@ -223,5 +223,6 @@ def update_depletion(n_clicks):
 # Expose the app object for Gunicorn
 server = app.server
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+# Run the app
+if __name__ == "__main__":
+    app.run_server(host="0.0.0.0", port=os.environ.get("PORT", 8050))
